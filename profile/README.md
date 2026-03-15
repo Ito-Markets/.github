@@ -1,32 +1,32 @@
-<div align="center">
+<p align="center">
+  <img width="400" alt="Itô Markets" src="assets/ito_logo.png" />
+</p>
 
-# Itô Markets
+<p align="center"><b>The ETF Layer for Prediction Markets</b></p>
 
-**The ETF Layer for Prediction Markets**
+<p align="center"><sub>
+Systematic basket construction, cross-exchange execution, and institutional analytics across Polymarket & Kalshi.<br />
+We're building the infrastructure to trade prediction markets the way institutions trade everything else.
+</sub></p>
 
-Systematic basket construction, cross-exchange execution, and institutional analytics across Polymarket & Kalshi.
-
-[Website](https://itomarkets.com) · [Research](https://itomarkets.substack.com) · [𝕏](https://x.com/absurdistphil) · [Waitlist](https://itomarkets.com/waitlist)
-
----
-
-</div>
-
-## What we build
-
-Itô Markets brings institutional rigor to prediction markets. We aggregate liquidity across **Polymarket** and **Kalshi** into a unified execution layer with portfolio-level tooling that doesn't exist anywhere else.
-
-| | |
-|---|---|
-| **Systematic Index Construction** | Research-driven baskets with transparent methodology, risk factor taxonomy, and daily rebalancing |
-| **Cross-Exchange Execution** | Unified order routing and atomic trades across prediction market liquidity pools |
-| **Portfolio Analytics** | Real-time Greeks, factor models, dynamic rebalancing, and institutional-grade PnL tracking |
-| **Historical Data Pipelines** | Comprehensive contract-level data for backtesting, research, and signal generation |
-| **Quantitative Research** | Statistical arbitrage strategies extracting alpha from prediction market signals |
+<p align="center">
+  <a href="https://itomarkets.com">Website</a> ·
+  <a href="https://itomarkets.substack.com">Substack</a> ·
+  <a href="https://x.com/absurdistphil">𝕏</a> ·
+  <a href="https://itomarkets.com/waitlist">Join Waitlist</a>
+</p>
 
 ---
 
-## Repositories
+## Now
+
+Building the systematic trading layer for prediction markets — basket indices, cross-exchange execution, real-time Greeks, and quantitative research pipelines.
+
+**Live infrastructure:** Polymarket + Kalshi · 24 baskets · institutional-grade analytics
+
+---
+
+## Open Source
 
 <table>
   <tr>
@@ -48,8 +48,8 @@ Itô Markets brings institutional rigor to prediction markets. We aggregate liqu
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Ito-Markets/iran-oil-statarb"><b>iran-oil-statarb</b></a><br />
-      <sub>Systematic Brent crude stat-arb from Middle East prediction market signals. Sharpe 1.27.</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=stat%20arb%20%7C%20research&labelColor=b04040&color=1a1a2e" alt="stat arb research" /><br />
+      <sub>Systematic Brent crude stat-arb from Middle East prediction market signals. Sharpe 1.27 · 58% win rate · 2.16 PF.</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=stat%20arb%20%7C%20oil&labelColor=b04040&color=1a1a2e" alt="stat arb oil" /><br />
       <img src="https://img.shields.io/github/stars/Ito-Markets/iran-oil-statarb?style=flat-square&label=stars&color=8c7038" alt="stars" />
       <img src="https://img.shields.io/github/forks/Ito-Markets/iran-oil-statarb?style=flat-square&label=forks&color=4a6fa5" alt="forks" />
     </td>
@@ -71,7 +71,7 @@ Itô Markets brings institutional rigor to prediction markets. We aggregate liqu
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Ito-Markets/prediction-market-research"><b>prediction-market-research</b></a><br />
-      <sub>Research papers, methodology docs, and quantitative analysis for portfolio construction.</sub><br />
+      <sub>Methodology docs and quantitative analysis for portfolio construction.</sub><br />
       <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=methodology%20%7C%20papers&labelColor=4a6fa5&color=1a1a2e" alt="methodology papers" /><br />
       <img src="https://img.shields.io/github/stars/Ito-Markets/prediction-market-research?style=flat-square&label=stars&color=8c7038" alt="stars" />
       <img src="https://img.shields.io/github/forks/Ito-Markets/prediction-market-research?style=flat-square&label=forks&color=4a6fa5" alt="forks" />
@@ -91,28 +91,35 @@ Itô Markets brings institutional rigor to prediction markets. We aggregate liqu
 
 ---
 
-## Latest Research
+## Highlights
 
-| Date | Title | Link |
-|------|-------|------|
-| Mar 2025 | **Iran Oil Statistical Arbitrage** — Brent crude prediction from S3 basket signals (Sharpe 1.27) | [Dashboard](https://github.com/Ito-Markets/iran-oil-statarb) |
-
-<sub>More research and daily reports on <a href="https://itomarkets.substack.com">Substack</a>.</sub>
-
----
-
-## Thesis
-
-Prediction markets are an emerging asset class. The infrastructure to trade them systematically — basket construction, cross-exchange execution, factor models, historical data — doesn't exist yet.
-
-We're building it.
+| | |
+|---|---|
+| **Prediction Market Infrastructure** | Unified execution across Polymarket & Kalshi with basket-level portfolio management |
+| **24 Live Baskets** | Systematic indices spanning geopolitics, macro, elections, tech, and armed conflict |
+| **Quantitative Research** | Statistical arbitrage strategies extracting alpha from prediction market signals into traditional commodities |
+| **Real-time Greeks** | Institutional-grade PnL tracking, factor models, and dynamic rebalancing |
+| **Historical Data** | Comprehensive contract-level pipelines for backtesting and signal generation |
 
 ---
 
-<div align="center">
+## Latest
 
-[itomarkets.com](https://itomarkets.com) · [Substack](https://itomarkets.substack.com) · [𝕏 @absurdistphil](https://x.com/absurdistphil) · [Instagram](https://instagram.com/soumahalejandro)
+| Date | Update |
+|------|--------|
+| **Mar 2025** | Published [Iran Oil StatArb](https://github.com/Ito-Markets/iran-oil-statarb) — Brent crude prediction from S3 basket signals (Sharpe 1.27, 58% win rate, 2.16 profit factor) |
+| **Mar 2025** | 24 systematic baskets live across Polymarket & Kalshi |
+| **Mar 2025** | Cross-exchange execution engine operational |
 
-<sub>Itô Markets © 2025 — Systematic prediction market trading</sub>
+<sub>Follow research updates on <a href="https://itomarkets.substack.com">Substack</a>.</sub>
 
-</div>
+---
+
+<p align="center">
+  <a href="https://itomarkets.com">itomarkets.com</a> ·
+  <a href="https://itomarkets.substack.com">Substack</a> ·
+  <a href="https://x.com/absurdistphil">𝕏</a> ·
+  <a href="https://instagram.com/soumahalejandro">Instagram</a>
+</p>
+
+---
