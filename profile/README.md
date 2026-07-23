@@ -1,93 +1,51 @@
 <p align="center">
-  <img width="400" alt="Itô Markets" src="assets/ito_logo.png" />
+  <a href="https://itomarkets.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/ito-lockup-light.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/ito-lockup-dark.svg">
+      <img alt="Ito Markets" src="assets/ito-lockup-dark.svg" width="420">
+    </picture>
+  </a>
 </p>
 
-<p align="center"><b>The ETF Layer for Prediction Markets</b></p>
-
-<p align="center"><sub>
-Systematic basket construction, cross-exchange execution, and institutional analytics across Polymarket & Kalshi.<br />
-We're building the infrastructure to trade prediction markets the way institutions trade everything else.
-</sub></p>
-
-<p align="center">
-  <a href="https://itomarkets.com">Website</a> ·
-  <a href="https://itomarkets.substack.com">Substack</a> ·
-  <a href="https://x.com/absurdistphil">𝕏</a> ·
-  <a href="https://itomarkets.com/waitlist">Join Waitlist</a>
-</p>
-
----
-
-## Now
-
-Building the systematic trading layer for prediction markets — basket indices, cross-exchange execution, real-time Greeks, and quantitative research pipelines.
-
-**Live infrastructure:** Polymarket + Kalshi · 24 baskets · institutional-grade analytics
-
----
-
-## Open Source
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ito-Markets/iran-oil-statarb"><b>iran-oil-statarb</b></a><br />
-      <sub>Systematic Brent crude stat-arb from Middle East prediction market signals. Sharpe 1.27 · 58% win rate · 2.16 PF.</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=stat%20arb%20%7C%20oil&labelColor=b04040&color=1a1a2e" alt="stat arb oil" /><br />
-      <img src="https://img.shields.io/github/stars/Ito-Markets/iran-oil-statarb?style=flat-square&label=stars&color=8c7038" alt="stars" />
-      <img src="https://img.shields.io/github/forks/Ito-Markets/iran-oil-statarb?style=flat-square&label=forks&color=4a6fa5" alt="forks" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ito-Markets/basket-engine"><b>basket-engine</b></a><br />
-      <sub>Core basket construction and rebalancing engine for prediction market indices.</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=indices%20%7C%20rebalancing&labelColor=2e7d5b&color=1a1a2e" alt="indices rebalancing" /><br />
-      <img src="https://img.shields.io/github/stars/Ito-Markets/basket-engine?style=flat-square&label=stars&color=8c7038" alt="stars" />
-      <img src="https://img.shields.io/github/forks/Ito-Markets/basket-engine?style=flat-square&label=forks&color=4a6fa5" alt="forks" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ito-Markets/pm-history-tracker"><b>pm-history-tracker</b></a><br />
-      <sub>Historical data pipeline for prediction market contracts across exchanges.</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=data%20%7C%20pipelines&labelColor=4a6fa5&color=1a1a2e" alt="data pipelines" /><br />
-      <img src="https://img.shields.io/github/stars/Ito-Markets/pm-history-tracker?style=flat-square&label=stars&color=8c7038" alt="stars" />
-      <img src="https://img.shields.io/github/forks/Ito-Markets/pm-history-tracker?style=flat-square&label=forks&color=4a6fa5" alt="forks" />
-    </td>
-    <td width="50%"></td>
-  </tr>
-</table>
-
----
-
-## Highlights
-
-| | |
-|---|---|
-| **Prediction Market Infrastructure** | Unified execution across Polymarket & Kalshi with basket-level portfolio management |
-| **24 Live Baskets** | Systematic indices spanning geopolitics, macro, elections, tech, and armed conflict |
-| **Quantitative Research** | Statistical arbitrage strategies extracting alpha from prediction market signals into traditional commodities |
-| **Real-time Greeks** | Institutional-grade PnL tracking, factor models, and dynamic rebalancing |
-| **Historical Data** | Comprehensive contract-level pipelines for backtesting and signal generation |
-
----
-
-## Latest
-
-| Date | Update |
-|------|--------|
-| **Mar 2025** | Published [Iran Oil StatArb](https://github.com/Ito-Markets/iran-oil-statarb) — Brent crude prediction from S3 basket signals (Sharpe 1.27, 58% win rate, 2.16 profit factor) |
-| **Mar 2025** | 24 systematic baskets live across Polymarket & Kalshi |
-| **Mar 2025** | Cross-exchange execution engine operational |
-
-<sub>Follow research updates on <a href="https://itomarkets.substack.com">Substack</a>.</sub>
-
----
+<p align="center"><b>The fixed-rate compute desk for AI teams</b></p>
 
 <p align="center">
   <a href="https://itomarkets.com">itomarkets.com</a> ·
-  <a href="https://itomarkets.substack.com">Substack</a> ·
-  <a href="https://x.com/absurdistphil">𝕏</a> ·
-  <a href="https://instagram.com/soumahalejandro">Instagram</a>
+  <a href="https://compute.itomarkets.com">compute.itomarkets.com</a> ·
+  <a href="https://github.com/affaan-m/ECC">ECC</a> ·
+  <a href="https://x.com/absurdistphil">𝕏</a>
 </p>
 
 ---
+
+## What we do
+
+GPU spot prices move. Training budgets don't. Ito writes fixed-rate compute contracts: lock a GPU-hour price for 30 to 365 days and pay that rate for the whole term. The desk holds the other side and hedges it across providers. First contracts executed July 2026.
+
+- Term contracts on GPU-hours, 30 to 365 days
+- One fixed rate per term, priced off live multi-provider spot data
+- The desk carries the price risk, not the buyer
+
+Get a quote at [compute.itomarkets.com](https://compute.itomarkets.com).
+
+## The agent rail
+
+Agents spend compute too, so we ship the rail for them to buy it directly:
+
+- **[ECC](https://github.com/affaan-m/ECC)**: the agent harness performance system for Claude Code, Codex, Cursor and beyond. Ito sponsors it and the compute desk plugs in as a skill.
+- **ito-compute-cli**: quote, lock, and manage contracts from the terminal. Bundled into the Ito runtime; npm publish lands when it exits demo mode.
+- Inside the harness, an agent can price a contract and lock it without leaving its loop.
+
+## Earlier work
+
+Ito started as a systematic prediction-markets desk. That research is still public: [iran-oil-statarb](https://github.com/Ito-Markets/iran-oil-statarb) (Brent crude signals from Middle East contracts, Sharpe 1.27), [polymarket-universe](https://github.com/Ito-Markets/polymarket-universe) (graph database of 546k Polymarket contracts), and [pm-history-tracker](https://github.com/Ito-Markets/pm-history-tracker).
+
+---
+
+<p align="center"><sub>
+  <a href="https://itomarkets.com">itomarkets.com</a> ·
+  <a href="https://compute.itomarkets.com">compute desk</a> ·
+  <a href="https://github.com/affaan-m/ECC">ECC</a> ·
+  <a href="https://itomarkets.substack.com">Substack</a>
+</sub></p>
