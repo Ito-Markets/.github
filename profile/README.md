@@ -8,7 +8,8 @@
   </a>
 </p>
 
-<p align="center"><b>The fixed-rate compute desk for AI teams</b></p>
+<p align="center"><b>The agentic OTC desk for compute</b></p>
+<p align="center"><sub>The risk transfer layer for compute</sub></p>
 
 <p align="center">
   <a href="https://itomarkets.com">itomarkets.com</a> ·
@@ -33,7 +34,7 @@ Get a quote at [compute.itomarkets.com](https://compute.itomarkets.com).
 
 Agents spend compute too, so we ship the rail for them to buy it directly:
 
-- **[ECC](https://github.com/affaan-m/ECC)**: the agent harness performance system for Claude Code, Codex, Cursor and beyond. Ito sponsors it and the compute desk plugs in as a skill.
+- **[ECC](https://github.com/affaan-m/ECC)**: the agent harness performance system for Claude Code, Codex, Cursor and beyond. Ito partners with ECC and the compute desk plugs in as a skill.
 - **ito-compute-cli**: quote, lock, and manage contracts from the terminal. Bundled into the Ito runtime; npm publish lands when it exits demo mode.
 - Inside the harness, an agent can price a contract and lock it without leaving its loop.
 
